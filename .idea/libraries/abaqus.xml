@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="abaqus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/abaqus/abaqus.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

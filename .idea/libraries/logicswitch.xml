@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logicswitch">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/logicswitch/logicswitch.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

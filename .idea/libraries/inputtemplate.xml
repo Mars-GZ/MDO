@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="inputtemplate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/inputtemplate/inputtemplate.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="subprocess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/subprocess/subprocess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

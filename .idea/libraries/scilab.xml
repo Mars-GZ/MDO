@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scilab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/scilab/scilab.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

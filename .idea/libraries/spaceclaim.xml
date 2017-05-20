@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spaceclaim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/spaceclaim/spaceclaim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

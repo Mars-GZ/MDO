@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cscript">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/cscript/cscript.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

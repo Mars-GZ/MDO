@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="trainer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/trainer/trainer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

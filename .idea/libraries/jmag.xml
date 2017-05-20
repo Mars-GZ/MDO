@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jmag">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/jmag/jmag.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

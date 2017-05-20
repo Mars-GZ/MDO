@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="exa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/exa/exa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

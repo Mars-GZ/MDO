@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logicif">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/logicif/logicif.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

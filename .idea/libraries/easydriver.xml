@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="easydriver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/easydriver/easydriver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

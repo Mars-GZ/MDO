@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+         <property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+         <property name="url" value="jdbc:sqlserver://localhost:1433;databaseName=mdo"/>
+         <property name="username" value="sa"/>
+         <property name="password" value="123456"/>
+     </bean>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+                <prop key="show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.jdbc.batch_size">20</prop>
+            </props>
+        </property>
+        <property name="mappingResources">
+            <list>
+                <value>djj/login/bean/Login.hbm.xml</value>
+                <value>djj/main/bean/Project.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--Login-->
+    <bean id="loginDAO" class="djj.login.dao.LoginDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="loginService" class="djj.login.service.LoginServiceImpl">
+        <property name="loginDAO" ref="loginDAO"/>
+    </bean>
+    <bean id="loginView" class="djj.login.LoginView">
+        <property name="loginService" ref="loginService"/>
+    </bean>
+
+    <!--Main-->
+    <bean id="projectDAO" class="djj.main.dao.ProjectDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="projectService" class="djj.main.service.ProjectServiceImpl">
+        <property name="projectDAO" ref="projectDAO"/>
+    </bean>
+    <bean id="mainView" class="djj.main.MainView">
+        <property name="projectService" ref="projectService"/>
+        <property name="tabView" ref="tab"/>
+    </bean>
+
+    <!--WorkFlow-->
+    <bean id="workFlowTree" class="djj.main.tab.workflow.tree.WorkFlowTreePanel">
+        <property name="mTreeClickListener" ref="workFlowMain"/>
+    </bean>
+    <bean id="properties" class="djj.main.tab.workflow.properties.PropertiesPanel">
+        <property name="mPropertyDataChangedListener" ref="workFlowMain"/>
+    </bean>
+    <bean id="workFlowMain" class="djj.main.tab.workflow.main.WorkFlowMainPanel">
+        <property name="mPaintCallBack" ref="toolDetail"/>
+        <property name="mTreeNodeListener" ref="workFlowTree"/>
+        <property name="mPropertyChangedListener" ref="properties"/>
+        <property name="mInputVarChangedListener" ref="inputvariable"/>
+    </bean>
+
+    <bean id="workFlowTool" class="djj.main.tab.workflow.main.WorkFlowToolPanel">
+        <property name="tool" ref="tool"/>
+        <property name="toolDetail" ref="toolDetail"/>
+    </bean>
+    <bean id="tool" class="djj.main.tab.workflow.main.ToolJPanel">
+        <property name="toolListener" ref="toolDetail"/>
+    </bean>
+    <bean id="toolDetail" class="djj.main.tab.workflow.main.ToolDetailJPanel">
+        <property name="mouseListener" ref="workFlowMain"/>
+    </bean>
+
+    <bean id="workFlowPanel" class="djj.main.tab.workflow.WorkFlowPanel">
+        <property name="treePanel" ref="workFlowTree"/>
+        <property name="propertiesPanel" ref="properties"/>
+    </bean>
+    <bean id="mainPanel" class="djj.main.tab.workflow.MainPanel">
+        <property name="mainPanel" ref="workFlowMain"/>
+        <property name="toolPanel" ref="workFlowTool"/>
+    </bean>
+    <bean id="workFlowTab" class="djj.main.tab.workflow.WorkFlowTab">
+        <property name="workFlow" ref="workFlowPanel"/>
+        <property name="main" ref="mainPanel"/>
+        <property name="variableTabView" ref="variableTabView"/>
+    </bean>
+    <bean id="tab" class="djj.main.tab.TabView">
+        <property name="workFlowTab" ref="workFlowTab"/>
+    </bean>
+
+    <!--VariableTabView-->
+    <bean id="variableTabView" class="djj.main.tab.workflow.var.VariableTabView">
+        <property name="inputTab" ref="inputvariable"/>
+        <property name="outputTab" ref="outputvariable"/>
+    </bean>
+    <bean id="inputvariable" class="djj.main.tab.workflow.var.InputVariableTab">
+        <property name="mInputVarUpdatedListener" ref="workFlowMain"/>
+    </bean>
+    <bean id="outputvariable" class="djj.main.tab.workflow.var.OutputVariableTab">
+    </bean>
+</beans>

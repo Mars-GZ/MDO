@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="solidworks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/solidworks/solidworks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

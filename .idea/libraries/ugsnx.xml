@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ugsnx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/ugsnx/ugsnx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

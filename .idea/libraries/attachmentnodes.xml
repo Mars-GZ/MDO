@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="attachmentnodes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/attachmentnodes/attachmentnodes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

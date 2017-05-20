@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ansa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/ansa/ansa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

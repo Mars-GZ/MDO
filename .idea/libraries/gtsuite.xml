@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gtsuite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/gtsuite/gtsuite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

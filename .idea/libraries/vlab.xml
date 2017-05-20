@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vlab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/vlab/vlab.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

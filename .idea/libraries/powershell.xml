@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="powershell">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/powershell/powershell.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

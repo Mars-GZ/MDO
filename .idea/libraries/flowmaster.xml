@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flowmaster">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/flowmaster/flowmaster.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="amesim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/amesim/amesim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

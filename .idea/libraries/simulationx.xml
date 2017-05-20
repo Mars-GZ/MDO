@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="simulationx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/simulationx/simulationx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

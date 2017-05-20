@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logicsync">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/logicsync/logicsync.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

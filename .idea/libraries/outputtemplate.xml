@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="outputtemplate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/outputtemplate/outputtemplate.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

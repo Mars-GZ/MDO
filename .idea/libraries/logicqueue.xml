@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logicqueue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/logicqueue/logicqueue.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

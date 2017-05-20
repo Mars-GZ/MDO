@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="madymo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/madymo/madymo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

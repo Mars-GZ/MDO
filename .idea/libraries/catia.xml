@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="catia">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/catia/catia.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="customnode">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/customnode/customnode.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

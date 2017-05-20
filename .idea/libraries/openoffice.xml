@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="openoffice">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/openoffice/openoffice.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

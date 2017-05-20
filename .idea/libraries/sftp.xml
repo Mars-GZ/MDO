@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/sftp/sftp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

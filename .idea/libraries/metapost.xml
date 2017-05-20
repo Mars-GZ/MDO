@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="metapost">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/metapost/metapost.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="labview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/labview/labview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

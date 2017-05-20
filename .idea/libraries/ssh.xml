@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ssh">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/ssh/ssh.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

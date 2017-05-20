@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cst">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/cst/cst.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

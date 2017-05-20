@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="curvefitting">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/curvefitting/curvefitting.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

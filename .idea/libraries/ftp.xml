@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration/ftp/ftp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
